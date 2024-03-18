@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SceneController">
+   <children>
+      <AnchorPane />
+      <Pane prefHeight="1087.0" prefWidth="338.0" style="-fx-background-color: LightGrey;">
+         <children>
+            <Button layoutX="76.0" layoutY="94.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="187.0" text="Add Item" />
+            <Button layoutX="76.0" layoutY="195.0" mnemonicParsing="false" onAction="#switchToDefineNewCategoryPage" prefHeight="49.0" prefWidth="187.0" text="Define New Category" />
+            <TextField layoutX="76.0" layoutY="32.0" prefHeight="25.0" prefWidth="187.0" promptText="Search..." />
+            <Button layoutX="76.0" layoutY="272.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="187.0" text="Create New Storage Location" />
+            <Button layoutX="76.0" layoutY="348.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="187.0" text="Generate Report" />
+            <Line endX="169.0" endY="1.52587890625E-5" layoutX="169.0" layoutY="171.0" startX="-169.0" startY="1.52587890625E-5" />
+         </children>
+      </Pane>
+      <Button layoutX="553.0" layoutY="200.0" mnemonicParsing="false" prefHeight="169.0" prefWidth="318.0" text="Movies">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="553.0" layoutY="599.0" mnemonicParsing="false" prefHeight="169.0" prefWidth="318.0" text="Appliances">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="1271.0" layoutY="200.0" mnemonicParsing="false" prefHeight="169.0" prefWidth="318.0" text="Books">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="1271.0" layoutY="599.0" mnemonicParsing="false" prefHeight="169.0" prefWidth="318.0" text="Electronics">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Pane layoutX="338.0" prefHeight="59.0" prefWidth="1585.0" style="-fx-background-color: LightGrey;">
+         <children>
+            <Text layoutX="1291.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Application Name" wrappingWidth="293.0000252723694">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Line endX="-184.0" endY="-428.0" layoutX="522.0" layoutY="428.0" startX="-184.0" startY="659.0" />
+      <Line endX="1483.0" layoutX="440.0" layoutY="59.0" startX="-100.0" />
+   </children>
+</AnchorPane>
